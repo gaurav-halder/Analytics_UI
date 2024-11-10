@@ -41,8 +41,13 @@ const Features2 = () => {
       </div>
       <div className="">
         <img
-          className="w-3/4 mx-auto block md:w-[18%] md:absolute md:ms-40 md:mt-24"
+          className="hidden w-3/4 mx-auto md:block md:w-[18%] md:absolute md:ms-40 md:mt-24"
           src="/images/FeaturesMobile.png"
+          alt=""
+        />
+        <img
+          className="sm:hidden w-3/4 mx-auto block md:w-[18%] md:absolute md:ms-40 md:mt-24"
+          src="/images/Mobileimage.png"
           alt=""
         />
         <img
