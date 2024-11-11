@@ -4,9 +4,9 @@ import PlayCircleOutlineIcon from "@mui/icons-material/PlayCircleOutline";
 
 const HeroContainer1 = () => {
   return (
-    <div className="flex flex-col items-center text-center pt-16 pb-12 px-4 bg-white">
-      <div className="flex items-center space-x-2 md:space-x-4 rounded-full bg-purple-50 text-sm p-1 border border-purple-400 mb-8">
-        <div className="bg-white text-purple-500 rounded-full px-2 py-[1px] border border-purple-400 cursor-pointer">
+    <div className="flex flex-col items-center text-center pt-16 pb-12 px-2 md:px-4 bg-white">
+      <div className="flex items-center space-x-1 md:space-x-4 rounded-full bg-purple-50 text-sm p-1 border border-purple-400 mb-8">
+        <div className="bg-white text-purple-500 text-sm rounded-full px-2 py-[1px] border border-purple-400 cursor-pointer">
           New feature
         </div>
         <div className="text-purple-500 flex items-center space-x-1 cursor-pointer">
